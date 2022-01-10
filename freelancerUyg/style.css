@@ -196,12 +196,6 @@ header h2 {
     transform: translate(-50%, -50%);
 }
 
-
-/* test */
-
-
-/* test */
-
 .portfolio-item:hover .img-overlay {
     opacity: 0.8;
 }
