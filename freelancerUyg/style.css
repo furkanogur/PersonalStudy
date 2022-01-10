@@ -151,21 +151,53 @@ header h2 {
 
 /* portfolio */
 
-.portfolio {
-    background-color: #fff;
-    margin-top: 5rem;
+#portfolio {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
 }
 
-.portfolio .col-3 {
+.row .col {
     width: 33.33%;
     float: left;
     padding: 1.5rem;
 }
 
-.portfolio h2 {
-    text-align: center;
+#portfolio h2 {
     color: #2c3e59;
     font-size: 5rem;
+}
+
+.portfolio-item {
+    position: relative;
+}
+
+.portfolio-item img {
+    display: block;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #18bc9c;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
+.img-overlay .icon {
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolio-item:hover .img-overlay {
+    opacity: 0.8;
 }
 
 .star-dark {
