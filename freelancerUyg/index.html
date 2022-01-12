@@ -22,8 +22,13 @@
                 Start Bootstrap
             </a>
             </div>
-            <div id="nav-links">
+            <div id="nav-links" class="responsive">
                 <ul>
+                    <li class="nav-item">
+                        <a href="" class="nav-link text-uppercase nav-icon">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </li>
                     <li class="nav-item">
                         <a href="" class="nav-link text-uppercase">
                             Portfolio
@@ -263,6 +268,17 @@
             <small>Copyright © your Website 2022</small>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+        $('.nav-icon').click(function() {
+            $('#nav-links').toggleClass("responsive");
+            return false;
+        });
+    </script>
+
+
 </body>
 
 </html>

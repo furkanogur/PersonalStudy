@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 6px;
 }
 
 body {
@@ -98,6 +98,12 @@ section {
     height: auto;
 }
 
+.row .col {
+    width: 100%;
+    float: left;
+    padding: 1rem;
+}
+
 .container {
     width: 100%;
     margin-left: auto;
@@ -110,11 +116,21 @@ section {
     .container {
         max-width: 540px;
     }
+    html {
+        font-size: 7px;
+    }
+    .row .col {}
 }
 
 @media screen and (min-width:768px) {
     .container {
         max-width: 7200px;
+    }
+    html {
+        font-size: 8px;
+    }
+    .row .col {
+        width: 50%;
     }
 }
 
@@ -122,11 +138,20 @@ section {
     .container {
         max-width: 960px;
     }
+    html {
+        font-size: 9px;
+    }
+    .row .col {
+        width: 33.3%;
+    }
 }
 
 @media screen and (min-width:1200px) {
     .container {
         max-width: 1140px;
+    }
+    html {
+        font-size: 10px;
     }
 }
 
@@ -182,6 +207,38 @@ nav {
     color: #18bc9c;
 }
 
+#nav-links .nav-icon {
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+    #logo-box {
+        float: none;
+        text-align: left;
+    }
+    #nav-links {
+        float: none;
+    }
+    #nav-links.responsive li:not(:first-child) {
+        display: none;
+    }
+    #nav-links .nav-link {
+        font-size: 2rem;
+        padding-left: 0;
+    }
+    #nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+    #nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 5rem;
+        font-size: 3rem;
+    }
+}
+
 
 /* header */
 
@@ -227,12 +284,6 @@ header h2 {
 
 
 /* portfolio */
-
-.row .col {
-    width: 33.33%;
-    float: left;
-    padding: 1.5rem;
-}
 
 #portfolio h2 {
     color: #2c3e59;
@@ -311,21 +362,36 @@ header h2 {
 }
 
 #about-text .left {
-    float: left;
-    width: 50%;
-    padding-right: 2rem;
-    padding-left: 23rem;
+    float: none;
+    width: 100%;
+    padding-right: .5rem;
+    padding-left: 2.5rem;
 }
 
 #about-text .right {
-    float: right;
-    width: 50%;
-    padding-left: 2rem;
-    padding-right: 23rem;
+    float: none;
+    width: 100%;
+    padding-right: .5rem;
+    padding-left: 2.5rem;
 }
 
 #about-text.text {
     font-size: 2rem;
+}
+
+@media screen and (min-width:992px) {
+    #about-text .left {
+        float: left;
+        width: 50%;
+        padding-right: 1rem;
+        padding-left: 21rem;
+    }
+    #about-text .right {
+        float: right;
+        width: 50%;
+        padding-right: 21rem;
+        padding-left: 1rem;
+    }
 }
 
 
