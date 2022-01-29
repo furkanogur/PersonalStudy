@@ -1,7 +1,5 @@
 # PersonalStudy
 <br>
-
-1. html - complate
 <br>
 1. html - complate
 2. Css - complate
