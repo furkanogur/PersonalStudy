@@ -6,7 +6,6 @@
 3. BootStrap - complate
 <br>
 4. Java Script - being studied<br>
-<br>
 .
 <br>
 .
