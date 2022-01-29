@@ -1,0 +1,156 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+header {
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 112px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+header:hover{
+    background-color:rgba(0, 0, 0, 1);
+}
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 18px;
+    margin-bottom: 7px;
+}
+.col3 {
+    float: left;
+    width: 30%;
+}
+.col6 {
+    float: left;
+    width: 40%;
+}
+
+.mainNav li  {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 31px;
+    
+
+   
+    
+}
+.mainNav li a {
+    color: white;
+    text-decoration: none;
+}
+.mainNav li a:hover {
+    color: #00bbff;
+}
+.mainNav ul {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+  
+    
+}
+.social-menu ul {
+    margin: 0px;
+    padding:0px;
+    margin-top: 45px;
+
+}
+.social-menu ul li  {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    float: right;
+    margin-left: 49px;
+    text-align: center;
+}
+.social-menu ul li .fab {
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+
+.fa-facebook-f {
+    color: white;
+    background-color: #261a7d;
+}
+.fa-instagram {
+    color: black;
+    background-color: #fae000;
+}
+.fa-youtube {
+    color: white;
+    background-color: #fa0300;
+}
+
+#main-area {
+    background-image: url(../images/mainarea_about.jpg);
+    min-height:388px ;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    text-align: center;
+   
+}
+h1 {
+    margin:0px;
+    padding: 0px;
+    font-size: 72px;
+    font-weight: 100;
+    color: #00bbff;
+    padding-top: 210px;
+    padding-bottom: 112px;
+}
+
+#center1 {
+        text-align: center;
+        overflow: hidden;
+        padding-bottom: 47px;min-height: 643px;
+}
+.col6-2 {
+    width: 50%;
+    float: left;
+}
+h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    color: #00bbff;
+    margin-bottom: 56px;
+    margin-top: 33px;
+}
+
+.col6-2 p {
+    font-size: 19.1px;
+    font-weight: 400;
+    color: black;
+   
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 30px;
+}
+
+.me {
+    padding-bottom: 56px;
+    
+    float: right;
+    
+}
+
+footer {
+    text-align: center;
+    background:black;
+    padding-bottom: 13px;
+    padding-top: 13px;
+}

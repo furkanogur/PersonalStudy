@@ -1,0 +1,291 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.top-header {
+    height: 112px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    
+}
+.top-header:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.col3 {
+    width: 30%;
+    float: left;
+}
+
+.Logo {
+    margin-top: 18px;
+}
+
+.mainNav {
+    width: 40%;
+    float: left;
+    text-align: center;
+  
+}
+.mainNav ul {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+
+}
+
+.mainNav li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.mainNav li:last-child {
+    margin-right: 0x;
+}
+.mainNav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.mainNav li a:hover{
+    color: #ca1d00;
+}
+
+.socialMedia li {
+    display: inline-block;
+    margin-right: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    margin-left: 46px;
+    float: right;
+}
+
+.socialMedia li .fab {
+
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    
+}
+
+.socialMedia li .fab:last-child {
+    margin: 0px;
+}
+
+.fa-facebook-f{
+    background-color: #395998;
+}
+.socialMedia li  .fa-instagram {
+    background-color: #fff600;
+    color: black;
+}
+.fa-youtube {
+    background-color: #ff0000;
+}
+
+#main-area {
+    background-image: url(../images/topBg.jpg);
+    min-height: 716px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 180px;
+    margin:0px;
+    color: white;
+    text-align: center;
+}
+#main-area h1 {
+    font-size: 72px;
+    font-weight: 100;
+    text-align: left;
+    padding-bottom: 112px;
+    margin-left: 23px;
+}
+#main-area h1 #h1-2 {
+    color: #ca1d00;
+}
+#main-area p {
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 102px;
+}
+
+.fa-arrow-alt-circle-down {
+    height: 46px;
+    width: 46px;
+    border-radius: 46px;
+    line-height: 46px;
+    color: #ca1d00;
+    font-size: 48px;
+    padding-bottom: 63px;
+}
+
+.fa-arrow-alt-circle-down:hover{
+    color: white;
+}
+#center {
+    color: white;
+    background-color: #ca1d00;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 47px;
+}
+
+#center h2 {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+#center h3 {
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+#center p {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+
+
+#center .col6-1-center {
+    float: left;
+    opacity: 70%;
+    width: 50%;
+    max-height: 256px;
+    background-image: url(../images/colrow1.jpg);
+    background-size: 100%;
+}
+#center .col6-1-center:hover {
+    opacity: 100%;
+
+}
+#center .col6-2-center {
+    opacity: 70%;
+    float: left;
+    width: 50%;
+    max-height: 256px;
+    background-image: url(../images/col2row1.jpg);
+}
+#center .col6-2-center:hover {
+    opacity: 100%;
+
+}
+#center .col6-3-center {
+    float: left;
+    opacity: 70%;
+    width: 50%;
+    max-height: 256px;
+    background-image: url(../images/row2col1.jpg);
+
+}
+#center .col6-3-center:hover {
+    opacity: 100%;
+
+}
+#center .col6-4-center {
+    float: left;
+    opacity: 70%;
+    width: 50%;
+    max-height: 256px;
+    background-image: url(../images/rowCol2.jpg);
+
+}
+#center .col6-4-center:hover {
+    opacity: 100%;
+
+}
+#foot1 {
+    background-image: url(../images/fo1.jpg);
+    overflow: hidden;
+    color: white;
+    min-height: 444px;
+    text-align: center;
+}
+
+#foot1 p {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 100px;
+    line-height: 30px;
+}
+#foot1 h4 {
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: 300;
+}
+#foot1 h4 span {
+    color: #cf341a;
+}
+.fa-user-circle {
+    font-size: 24px;
+    margin-left: 19px;
+    margin-right: 19px;
+    padding-top: 56px;
+    color: #cf341a;
+}
+ body #foot1 .container .active-circle {
+    color: white;
+}
+
+#clients {
+    text-align: center;
+    background-color: #f4f4f4;
+    overflow: hidden;
+    padding-bottom: 56px;
+}
+#clients h5 {
+    margin: 0;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #ca1d00;
+}
+.colf1 {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.colf2 {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.colf3 {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.colf4 {
+    text-align: center  ;
+    width: 20%;
+    float: left;  
+}     
+.colf5 {
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    overflow: hidden;
+}

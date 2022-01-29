@@ -1,0 +1,82 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 112px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;  
+}
+
+.col3 {
+    width: 30%;
+    float: left;
+ 
+
+}
+.Logo {
+    margin-top: 18px;
+}
+
+.col6 {
+    width: 40%;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.mainNav ul {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 50px;
+   
+}
+
+.mainNav  {
+    float: left;
+  
+}
+.mainNav ul li {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.mainNav ul li a {
+    text-decoration: none;
+}
+
+
+.socialMedia {
+    float: right;
+   
+}
+.socialMedia ul {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 50px;
+
+}
+.socialMedia li {
+    display: inline-block;
+    margin-left: 60px;
+    text-align: center;
+
+}
+
+.socialMedia a {
+    text-decoration: none;
+}
+
