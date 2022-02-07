@@ -12,6 +12,12 @@ eventListeners();
 function eventListeners() {
     // submit event
     form.addEventListener('submit', addNewItem);
+
+    //delete an item
+    taskList.addEventListener('click', deleteItem);
+
+    //delete all items
+    btnDeleteAll.addEventListener('click', deleteAllItems)
 }
 
 //add newitem
@@ -19,6 +25,7 @@ function addNewItem(e) {
 
     if (input.value === '') {
         alert('add new item')
+        return;
     };
     //create li
     const li = document.createElement('li');
@@ -42,4 +49,30 @@ function addNewItem(e) {
 
     e.preventDefault();
 
+}
+
+//delete an item
+
+function deleteItem(e) {
+    if (confirm('are you sure ?')) {
+        if (e.target.className === 'fas fa-times') {
+            e.target.parentElement.parentElement.remove();
+        }
+    }
+    e.preventDefault();
+}
+
+function deleteAllItems(e) {
+    if (confirm('are you sure ?')) {
+
+
+        //taskList.innerHTML = '';
+
+        for (let i = 0; i < taskList.children.length; i) {
+            if (taskList.children[i].nodeType === 1) {
+                taskList.children[i].remove();
+            }
+        }
+    }
+    e.preventDefault();
 }
