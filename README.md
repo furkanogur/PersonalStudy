@@ -12,6 +12,12 @@
 <br>
 <br>
 <br>
+<<<<<<< HEAD
+=======
+<br>
+<br>test
+
+>>>>>>> ec4b07e2e588e45ed1e6663f7c4beded76ac5106
 .
 <br>
 ...
