@@ -15,4 +15,4 @@ console.warn("uyarı");
 çoklu yorum satırı
 */
 
-console.clear();
+//console.clear();
