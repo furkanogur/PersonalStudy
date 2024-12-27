@@ -6,3 +6,5 @@ online editör uygulaması;
 <br>
 bununla online platformdan da kod yazılabilir vs code indirilmeden.
 <br>
+SEO Araştırması yapılmalı Önemli!!!
+<br>
