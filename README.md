@@ -1,24 +1,13 @@
 # PersonalStudy
 <br>
 <br>
-1. html - complate
+1. html - being studied
 <br>
-2. Css - complate
+2. Css 
 <br>
-3. BootStrap - complate
+3. BootStrap 
 <br>
-4. Java Script - being studied<br>
+4. Java Script 
+<br>
 .
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>test
-
-.
-<br>
-...
 <br>
