@@ -5,21 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      h1 {
+      body {
+        color: lightcoral;
+        font-size: 15px;
+      }
+      p {
         color: red;
       }
-      #page_title {
-        border-bottom: 3px solid green;
-        color: orange;
+      p {
+        border: 1px solid green;
       }
-      .text_yellow {
-        color: yellow;
+      em {
+        border: inherit;
       }
-      /* inline css */
-      /* id selector */
-      /* class selector */
-      /* tag selector */
-      /* browser default */
+      /* en yakınkapsayıcı elemandan alır */
+      em {
+        color: initial;
+      }
+      /* inehiritin tam tersi kalıtımla geçmesin demek */
     </style>
   </head>
   <body>
@@ -27,8 +30,8 @@
       <section>
         <h1 id="page_title" class="text_yellow">Welcome To MovieApp</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
-          magnam?
+          Lorem ipsum dolor sit amet <em>consectetur</em>adipisicing elit.
+          Itaque, magnam?
         </p>
       </section>
       <section>
