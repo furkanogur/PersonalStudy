@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      #showcase {
+        background-color: #2e4c6d;
+        height: 500px;
+        width: 100%;
+        padding: 10px;
+      }
+
+      #how_it_works {
+        background-color: #fc997c;
+        padding: 10px;
+      }
+      .main_header {
+        background-color: #fc997c;
+        padding: 8px 16px;
+      }
+      .main_nav {
+        display: inline-block;
+        width: calc(100% - 99px);
+        text-align: right;
+      }
+      .main_nav__items {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .main_nav__item {
+        display: inline-block;
+        margin: 0px 10px;
+      }
+      .main_header__logo {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 21px;
+      }
+      .main_nav__item a {
+        text-decoration: none;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="main_header">
+      <a href="#" class="main_header__logo">MovieApp</a>
+      <nav class="main_nav">
+        <ul class="main_nav__items">
+          <li class="main_nav__item"><a href="#">Home</a></li>
+          <li class="main_nav__item"><a href="#">Movies</a></li>
+          <li class="main_nav__item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="showcase">
+        <h1>Welcome To MovieApp</h1>
+      </section>
+      <section id="how_it_works"><h2>How İt Works?</h2></section>
+    </main>
+  </body>
+</html>
