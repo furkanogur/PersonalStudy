@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* div p {
+        background-color: red;
+      } */
+      /* 1. Descendant Selector (space) */
+      /* 2. Child Selector (>) */
+      /* div > p {
+        background-color: blue;
+      } */
+      /* div + p {
+        background-color: blue;
+      } */
+      /* 3. Adjacent Sibling Selector (+) */
+      div ~ p {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Combinators -->
+
+    <!-- 1. Descendant Selector (space) -->
+    <p>1.paragraf</p>
+    <div>
+      <p>2.paragraf</p>
+      <p>3.paragraf</p>
+      <section>
+        <p>4.paragraf</p>
+      </section>
+    </div>
+    <p>5.paragraf</p>
+    <p>6.paragraf</p>
+    <!-- 2. Child Selector (>) -->
+    <!-- 3. Adjacent Sibling Selector (+) -->
+    <!-- 4. General Sibling Selector (~) -->
+  </body>
+</html>
