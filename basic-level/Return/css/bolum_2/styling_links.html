@@ -50,6 +50,19 @@
         text-decoration: none;
         color: #fff;
       }
+      .main_nav__item a:hover,
+      .main_nav__item a:hover::before {
+        color: #2e4c6d;
+      }
+      .main_nav__item a:active,
+      .main_nav__item:active::before {
+        color: #fff;
+      }
+
+      .main_nav__item a::before {
+        content: "\2022 ";
+        color: #fff;
+      }
     </style>
   </head>
   <body>
@@ -57,9 +70,9 @@
       <a href="#" class="main_header__logo">MovieApp</a>
       <nav class="main_nav">
         <ul class="main_nav__items">
-          <li class="main_nav__item"><a href="#">Home</a></li>
-          <li class="main_nav__item"><a href="#">Movies</a></li>
-          <li class="main_nav__item"><a href="#">Contact</a></li>
+          <li class="main_nav__item"><a href="#"> Home</a></li>
+          <li class="main_nav__item"><a href="#"> Movies</a></li>
+          <li class="main_nav__item"><a href="#"> Contact</a></li>
         </ul>
       </nav>
     </header>
